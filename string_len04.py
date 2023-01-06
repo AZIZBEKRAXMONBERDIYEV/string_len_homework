@@ -6,4 +6,6 @@ def main(s):
     Returns:
         string
     """
-    return
+    a='\"s\"'
+    return a
+print(main('dklqfj'))
