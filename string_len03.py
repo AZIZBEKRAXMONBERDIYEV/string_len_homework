@@ -7,4 +7,8 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    s=len(a)
+    x=len(b)
+    q=x==s
+    return q
+print(main("azizbek","ajbivwd"))
