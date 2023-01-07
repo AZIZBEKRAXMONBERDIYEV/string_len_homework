@@ -6,4 +6,6 @@ def main(a):
     Returns:
         length of string
     """
-    return
+    s=a
+    return s
+print(main('nasjh'))
