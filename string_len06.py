@@ -7,4 +7,13 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    
+    x=len(s1)
+    d=len(s2)
+    if x>d:
+       i=s2
+    elif d>x:
+       i=s1
+    return i
+print(main('bsavjh','hvac'))
+
