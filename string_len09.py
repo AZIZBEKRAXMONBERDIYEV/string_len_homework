@@ -9,4 +9,8 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    s=int(num1)
+    a=int(num2)
+    d=s+a
+    return d
+print(main('5','3'))
