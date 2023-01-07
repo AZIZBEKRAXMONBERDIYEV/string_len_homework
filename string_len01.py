@@ -6,6 +6,6 @@ def main(a):
     Returns:
         length of string
     """
-    s=a
+    s=len(a)
     return s
 print(main('nasjh'))
