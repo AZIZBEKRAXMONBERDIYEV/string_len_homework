@@ -6,4 +6,11 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    s=len(a)
+    if s%2==0:
+        i=True
+    elif s%2==1:
+        i=False
+
+    return i
+print(main('kjbvg'))
